@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'HQS1000 · Revenue Dashboard',
+  title: 'HQS10000 · Revenue Dashboard',
   description: 'Real-time revenue dashboard — powered by Google Sheets',
   icons: { icon: '/favicon.ico' },
 }
