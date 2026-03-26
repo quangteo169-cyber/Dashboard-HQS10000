@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  background: #07090f;
+  color: #f9fafb;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #0d1117; }
+::-webkit-scrollbar-thumb { background: #374151; border-radius: 4px; }
+
+.recharts-default-tooltip {
+  background: #111827 !important;
+  border: 1px solid #374151 !important;
+  border-radius: 8px !important;
+  font-size: 12px !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6) !important;
+}
+
+/* Animate pulse dot */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.pulse { animation: pulse 2s infinite; }
