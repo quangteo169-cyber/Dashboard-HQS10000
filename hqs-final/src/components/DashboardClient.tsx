@@ -183,7 +183,7 @@ export default function DashboardClient({ initialData }: { initialData: Dashboar
           </div>
           <div>
             <h1 className="text-[15px] font-extrabold text-white leading-none tracking-tight">
-              HQS<span className="text-indigo-400">1000</span>
+              HQS<span className="text-indigo-400">10000</span>
               <span className="text-gray-600 font-normal ml-2 text-[13px]">Revenue Dashboard</span>
             </h1>
             <p className="text-[10px] text-gray-600 mt-0.5">
