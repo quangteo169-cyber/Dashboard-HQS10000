@@ -1,4 +1,4 @@
-# HQS1000 Revenue Dashboard
+# HQS10000 Revenue Dashboard
 
 Real-time dashboard built with **Next.js 14 + Recharts**, fetching data directly from Google Sheets.
 
